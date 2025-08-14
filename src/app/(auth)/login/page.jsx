@@ -15,7 +15,7 @@ export default function Login() {
   // console.log(isPending);
 
   return (
-    <div className='container w-1/2'>
+    <div className='container lg:w-1/2 sm: min-width: 90%'>
         <h1 className='title'>Login</h1>
 
         <form action={action} className='space-y-4'>

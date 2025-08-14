@@ -28,7 +28,9 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={`${poppins.variable} font-sans`}>
+      <body className={
+        `${poppins.variable} font-sans`
+        }>
         <header>
           <nav>
             <Navigation/>
