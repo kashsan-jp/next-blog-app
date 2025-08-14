@@ -28,7 +28,7 @@ export default async function Edit({params}) {
         // console.log(post);
 
   return (
-    <div className='container w-1/2'>
+    <div className='container lg:w-1/2 sm:min-width:90%'>
         <h1 className='title'>Edit your post</h1>
 
        { post ? (

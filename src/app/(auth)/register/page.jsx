@@ -14,7 +14,7 @@ export default function Register() {
   // console.log(isPending);  
 
   return (
-    <div className='container lg:w-1/2 sm: min-width: 90%'>
+    <div className='container lg:w-1/2 sm: min-width:90%'>
         <h1 className='title'>Register</h1>
 
         <form action={action} className='space-y-4'>

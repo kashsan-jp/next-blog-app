@@ -17,7 +17,7 @@ export default async function Show({params}) {
     // console.log(id);
 
     return (
-        <div className="container w-1/2">
+        <div className="container lg:w-1/2 sm: min-width:90%">
             {post 
             ? <PostCard post={post}/>
             : <p>Failed to fetch the data</p>
