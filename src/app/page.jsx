@@ -16,7 +16,7 @@ export default async function Home() {
         <h1 className="title"> <span className="text-red-500">K</span>ashsan 技術ブログ</h1>
         <p className="text-green-700 mb-10">
         シニアエンジニアKashsanの<br></br>
-        日々の技術向上を記録しています。
+        開発技術の向上を記録しています。
         </p>
           <Link href="tech">
           <div className="text-red-500 bold">このブログについて</div>
