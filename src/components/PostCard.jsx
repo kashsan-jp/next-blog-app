@@ -23,7 +23,7 @@ export default function PostCard({post}) {
         >
             {post.title}
         </Link>
-        <p className="text-sm">{post.content}</p>
+        <p className="text-sm break-words whitespace-pre-wrap">{post.content}</p>
     </div>
   )
 }
