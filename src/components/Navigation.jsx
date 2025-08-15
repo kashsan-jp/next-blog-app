@@ -9,7 +9,7 @@ export default async function Navigation() {
     // console.log(authUser);
 
   return (
-    <nav className=''>
+    <nav className='h-1'>
         <div className='lg:mr-150 sm:mr-0 '>
             <NavLink label="Home" href="/" />
         </div>
