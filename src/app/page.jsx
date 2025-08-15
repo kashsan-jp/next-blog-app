@@ -1,5 +1,6 @@
 import PostCard from "@/components/PostCard";
 import { getCollection } from "@/lib/db";
+import Link from "next/link";
 
 export default async function Home() {
 
@@ -10,6 +11,16 @@ export default async function Home() {
 
   if(posts){
     return ( 
+      <>
+      <div className="mb-10 text-center">
+        <h1 className="title"> <span className="text-red-500">K</span>ashsan 技術ブログ</h1>
+        <p className="text-green-700 mb-10">
+        シニアプログラマーKashsanの日々の技術向上を記録しています。<br></br>
+        </p>
+          <Link href="tech">
+          <div className="text-red-500 bold">このブログについて</div>
+          </Link> 
+      </div>
       <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-6 ">
         {
           posts.map((post) => (
@@ -18,6 +29,7 @@ export default async function Home() {
             </div>
           ))}
       </div>
+      </>
     );
   } else {
     return <p>Failed to fetch the data from database</p>;
