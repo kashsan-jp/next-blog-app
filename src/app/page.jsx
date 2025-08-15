@@ -19,7 +19,7 @@ export default async function Home() {
         開発技術の向上を記録しています。
         </p>
           <Link href="tech">
-          <div className="text-red-500 bold">このブログについて</div>
+          <div className="text-red-500 font-bold font-serif font-lg">Tech Memo</div>
           </Link> 
       </div>
       <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-6 ">
