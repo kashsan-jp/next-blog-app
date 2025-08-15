@@ -26,6 +26,7 @@ export default async function Navigation() {
                     <div>
                         {/* <NavLink label="Register" href="/register" /> */}
                         <NavLink label="Login" href="/login" />
+                        <NavLink label="tech" href="/tech" />
                     </div>
                 )}
     </nav>
