@@ -7,7 +7,7 @@ export default function PostCard({post}) {
         border-dashed p-4 rounded-md h-full bg-white">
 
         <p className="text-slate-600 text-xs">
-            {post._id.getTimestamp().toLocaleString()}
+            {post._id.getTimestamp().toLocaleString({ timeZone: 'Asia/Tokyo' })}
         </p>
         <Link 
             href={`/posts/show/${post._id.toString()}`} 

@@ -29,10 +29,10 @@ export async function decrypt(session) {
 
 export async function createSession(userId) {
 
-    // const expiresAt = new Date(
-    //     Date.now() + 7 * 24 * 60 * 60 * 1000);
+    const expiresAt = new Date(
+        Date.now() + 7 * 24 * 60 * 60 * 1000);
 
-    const expiresAt = new Date.toLocaleString({ timeZone: 'Asia/Tokyo' });
+    //const expiresAt = new Date.toLocaleString({ timeZone: 'Asia/Tokyo' });
 
     const session = await encrypt({ userId, expiresAt});
     const cookiesStore = await cookies();
