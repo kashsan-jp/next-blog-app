@@ -1,5 +1,6 @@
 import PostCard from "@/components/PostCard";
 import { getCollection } from "@/lib/db";
+import Image from "next/image";
 import Link from "next/link";
 
 export default async function Home() {
@@ -21,6 +22,16 @@ export default async function Home() {
           <Link href="tech">
           <div className="text-red-500 font-bold font-serif font-lg">Tech Memo</div>
           </Link> 
+      </div>
+      <div className="hidden sm:block">
+        <p className="text-center">スマホ専用</p>
+        <Image
+            src="/QR_nextjs_blog.png" //配置した画像のパスを記述する。
+            alt="smart-phone-site"
+            width={100}
+            height={100}
+            className="mx-auto mb-10"
+          />
       </div>
       <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-6 w-full ">
         {
