@@ -26,7 +26,8 @@ export default async function Navigation() {
                     <div className="flex items-center sm:text-xs lg:text-lg sm:gap-0.1 lg:gap-3">
                         {/* <NavLink label="Register" href="/register" /> */}
                         <NavLink label="Login" href="/login" />
-                        <NavLink label="tech memo" href="/tech" />
+                        <NavLink label="Tech Memo" href="/tech" />
+                        <NavLink label="Link" href="/link" />
                     </div>
                 )}
     </nav>
