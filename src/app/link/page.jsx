@@ -20,9 +20,9 @@ export default function Link() {
         <tbody>
             {jsonLinks.map((link) => (
                 <tr key={link.id}>
-                    <td className='text-blue-500'>{link.date}</td>
-                    <td className='text-red-500'><a href={link.url}>{link.siteName}</a></td>
-                    <td>{link.comment}</td>
+                    <td className='text-blue-500 sm:text-sm lg:text-base'>{link.date}</td>
+                    <td className='text-red-500 sm:text-sm lg:text-base'><a href={link.url}>{link.siteName}</a></td>
+                    <td className='text-slate-500 sm:text-sm lg:text-base'>{link.comment}</td>
                 </tr>
             ))
             }
