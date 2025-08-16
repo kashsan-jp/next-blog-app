@@ -25,11 +25,9 @@ export default async function Home() {
       <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-6 w-full ">
         {
           posts.map((post) => (
-            <div className="">
               <div key={post._id} className="line-clamp-2">
                 <PostCard post={post}/>
               </div>
-            </div>
           ))}
       </div>
       </>

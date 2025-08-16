@@ -3,6 +3,7 @@ import Link from "next/link";
 export default function PostCard({post}) {
 
   return (
+    <>
     <div className="border border-slate-400 
         border-dashed p-4 rounded-md h-full bg-white">
 
@@ -25,5 +26,9 @@ export default function PostCard({post}) {
         </Link>
         <p className="text-sm break-words whitespace-pre-wrap">{post.content}</p>
     </div>
+    <Link href="/">
+      <div className="text-center text-green-500 mt-3">戻る</div>
+    </Link>
+    </>
   )
 }
