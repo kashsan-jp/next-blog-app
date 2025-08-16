@@ -22,11 +22,13 @@ export default async function Home() {
           <div className="text-red-500 font-bold font-serif font-lg">Tech Memo</div>
           </Link> 
       </div>
-      <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-6 ">
+      <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-6 w-full ">
         {
           posts.map((post) => (
-            <div key={post._id}>
-              <PostCard post={post}/>
+            <div className="">
+              <div key={post._id} className="line-clamp-2">
+                <PostCard post={post}/>
+              </div>
             </div>
           ))}
       </div>
