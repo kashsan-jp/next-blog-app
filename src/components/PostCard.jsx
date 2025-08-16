@@ -18,9 +18,9 @@ export default function PostCard({post}) {
               }
             )}
         </p>
-        <Link 
+        <Link
             href={`/posts/show/${post._id.toString()}`} 
-            className="block text-xl font-semibold mb-8"
+            className="block text-xl font-semibold mb-4 py-3"
         >
             {post.title}
         </Link>
