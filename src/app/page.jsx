@@ -33,7 +33,7 @@ export default async function Home() {
             className="mx-auto mb-10"
           />
       </div>
-      <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-6 w-full ">
+      <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-6 w-full">
         {
           posts.map((post) => (
               <div key={post._id} className="line-clamp-2">

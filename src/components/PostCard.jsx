@@ -20,7 +20,7 @@ export default function PostCard({post}) {
         </p>
         <Link 
             href={`/posts/show/${post._id.toString()}`} 
-            className="block text-xl font-semibold mb-4"
+            className="block text-xl font-semibold mb-8"
         >
             {post.title}
         </Link>
