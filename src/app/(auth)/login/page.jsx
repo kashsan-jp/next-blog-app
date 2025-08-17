@@ -15,6 +15,8 @@ export default function Login() {
   // console.log(isPending);
 
   return (
+    <>
+    <div className='text-center mb-5'>開発者専用ログインページ</div>
     <div className='container lg:w-1/2 sm: min-width: 90%'>
         <h1 className='title'>Login</h1>
 
@@ -47,5 +49,8 @@ export default function Login() {
           </div>
         </form>
     </div>
+
+    </>
+    
   )
 }

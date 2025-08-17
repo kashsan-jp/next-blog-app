@@ -8,7 +8,7 @@ export default function Link() {
     <>
      <div className='body'>
       <div className='title'><span className='text-red-500'>K</span>ashsan 製作サイト</div>
-      <p className='text-center text-green-700'>サイト名をクリックするとリンク先に飛びます</p>
+      <p className='text-center text-green-700'>サイト名をクリックするとリンク先に遷移します</p>
       <table>
         <thead>
             <tr>
