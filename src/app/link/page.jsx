@@ -10,8 +10,8 @@ export default function Link() {
       <div className='title'>
       開発サイト
       </div>
-      <p className='text-center text-green-700'>
-      サイト名をクリックするとリンク先に遷移します
+      <p className='text-center text-green-700 mb-5'>
+      サイト名をクリックすると<br></br>リンク先に遷移します
       </p>
       <table>
         <thead>
