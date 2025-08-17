@@ -17,7 +17,7 @@ export default function Tech() {
       プロフィール
       </p>
       <div className='p-2 border border-solid rounded m-auto lg:w-lg sm:w-sm border-green-700'>
-        1997年HTMLでWebコーディングを始め、K-Ash.com を立ち上げる。<br></br>
+        1997年HTMLとMemoアプリでWebコーディングを始め、K-Ash.com を立ち上げる。<br></br>
         2005年にJazz&RockバンドE-Specksを結成しG&Voとして活動を開始する。
         2010年に社会貢献と障害者の社会参加のためにMHPコンサートをスタート、
         プロデュースと楽曲の提供を始める。 <br></br><br></br>
