@@ -7,14 +7,18 @@ export default function Link() {
   return (
     <>
      <div className='body'>
-      <div className='title'><span className='text-red-500'>K</span>ashsan 製作サイト</div>
-      <p className='text-center text-green-700'>サイト名をクリックするとリンク先に遷移します</p>
+      <div className='title'>
+      開発サイト
+      </div>
+      <p className='text-center text-green-700'>
+      サイト名をクリックするとリンク先に遷移します
+      </p>
       <table>
         <thead>
             <tr>
                 <th className='w-1/6 bold'>製作年</th>
-                <th className='w-1/6'>サイト名</th>
-                <th className='w-3/6'>使用技術</th>
+                <th className='w-3/6'>サイト名</th>
+                <th className='w-2/6'>使用技術</th>
             </tr>
         </thead>
         <tbody>
