@@ -10,14 +10,14 @@ export default function Link() {
       <div className='title'>
       開発サイト
       </div>
-      <p className='text-center text-green-700 mb-5'>
+      <p className='text-center text-green-700 mb-'>
       サイト名をクリックすると<br></br>リンク先に遷移します
       </p>
       <table>
         <thead>
             <tr>
-                <th className='w-1/6 bold'>製作年</th>
-                <th className='w-3/6'>サイト名</th>
+                <th className='w-1.5/6 bold'>製作年</th>
+                <th className='w-3.5/6'>サイト名</th>
                 <th className='w-2/6'>使用技術</th>
             </tr>
         </thead>
