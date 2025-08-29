@@ -6,6 +6,7 @@ export const links = [
   { id:5, date:"2025", siteName:"トラベルサイト(Demo)", url: "https://www.k-ash.com/travel_website", comment: "HTML CSS JavaScript jQuery", },
   { id:6, date:"2025", siteName:"SNS(技術者用)", url: "https://kashsan-testsite.top", comment: "Vue Laravel Linux Server iTerm2(SSH接続)", },
   { id:7, date:"2023", siteName:"猫ジェネ", url: "https://k-ash-dotcom-test.s3.ap-northeast-1.amazonaws.com/index.html", comment: "HTML Javascript AWS S3", },
-  { id:8, date:"2025", siteName:"当サイト", url: "https://next-blog-app-8uuo.vercel.app", comment: "Nextjs MongoDB", },
+  { id:8, date:"2023", siteName:"ピクチャーサーチ", url: "https://kashsan-sample.s3.ap-northeast-1.amazonaws.com/index.html", comment: "React AWS S3", },
+  { id:9, date:"2025", siteName:"当サイト", url: "https://next-blog-app-8uuo.vercel.app", comment: "Nextjs MongoDB", },
 
 ]
