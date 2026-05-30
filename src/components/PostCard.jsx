@@ -5,7 +5,8 @@ export default function PostCard({post}) {
   return (
     <>
     <div className="border border-slate-400 
-        border-dashed p-4 rounded-md h-full bg-white">
+        border-dashed p-4 rounded-md h-full bg-red-100 w-3/4 md:w-full 
+       ">
 
         <p className="text-slate-600 text-xs">
             {post._id.getTimestamp().toLocaleString(
@@ -27,9 +28,6 @@ export default function PostCard({post}) {
         </Link>
         <p className="text-sm break-words whitespace-pre-wrap">{post.content}</p>
     </div>
-    {/* <Link href="/">
-      <div className="text-center text-orange-700 mt-3">戻る</div>
-    </Link> */}
     </>
   )
 }
