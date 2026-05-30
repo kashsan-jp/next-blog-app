@@ -5,7 +5,7 @@ export default function PostCard({post}) {
   return (
     <>
     <div className="border border-slate-400 
-        border-dashed p-4 rounded-md h-full bg-red-100 w-3/4 md:w-full 
+        border-dashed p-4 rounded-md h-full bg-red-100 md:w-full w-4/5 mx-auto 
        ">
 
         <p className="text-slate-600 text-xs">
