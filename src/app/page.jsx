@@ -14,7 +14,7 @@ export default async function Home() {
     return ( 
       <>
       <div className="mb-10 text-center">
-        <h1 className="title"> <span className="text-red-500">K</span>ashsan 技術ブログ</h1>
+        <h1 className="title text-2xl md:text-3xl"> <span className="text-red-500">K</span>ashsan 技術ブログ</h1>
         <p className="text-green-700 mb-10">
         シニアエンジニアKashsanの<br></br>
         開発技術を記録しています。
