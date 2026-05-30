@@ -13,7 +13,7 @@ export default async function Home() {
   if(posts){
     return ( 
       <>
-      <div className="mb-10 text-center">
+      <div className="mb-10 text-center overflow-x-hidden">
         <h1 className="title text-2xl md:text-3xl"> <span className="text-red-500">K</span>ashsan 技術ブログ</h1>
         <p className="text-green-700 mb-10">
         シニアエンジニアKashsanの<br></br>
