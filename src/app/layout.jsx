@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
             <Navigation/>
           </nav>
         </header>
-          <main>
+          <main className="min-h-screen w-full bg-[url('/background.png')] bg-cover bg-center bg-no-repeat">
             {children}
           </main>
         <Footer />

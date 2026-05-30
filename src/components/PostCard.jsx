@@ -7,9 +7,9 @@ export default function PostCard({post}) {
     <div className="border border-slate-400 
         border-dashed p-4 rounded-md h-full bg-red-100  max-md:w-68 lg:w-full mx-auto 
        ">
-
-        <p className="text-slate-600 text-xs">
-            {post._id.getTimestamp().toLocaleString(
+        
+        <p className="text-slate-600 text-sm">
+            🕰️ {post._id.getTimestamp().toLocaleString(
               "ja-JP", {
                 timeZone: "Asia/Tokyo",
                 year: "numeric",
